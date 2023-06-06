@@ -1,0 +1,40 @@
+{
+    "product":[
+        {
+            "id": 1,
+            "name" : "I phone 13",
+            "desc": "Apple i phone new gen",
+            "color" : "#33505a",
+            "price": 999,
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC56eQch5qgvMqHg0mrHbNhnef_ZrbsIvXHw&usqp=CAU"
+            
+        },
+        {
+            "id": 2,
+            "name" : "I phone 12",
+            "desc": "Apple i phone new gen",
+            "color" : "#00ac51",
+            "price": 989,
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROCTEkC_tas_ycY2IAlOcMK55SCYVrfvtsyHJdZk3GoW_hAIZ_kdtJapm-qIQO63iD9Kc&usqp=CAU"
+
+        },
+        {
+            "id": 3,
+            "name" : "I phone 11",
+            "desc": "Apple i phone new gen",
+            "color" : "#00ac51",
+            "price": 979,
+            "image" : "https://i.insider.com/5df10d81fd9db229ba736a77?width=700"
+
+        },
+        {
+            "id": 4,
+            "name" : "I phone pro 11",
+            "desc": "Apple i phone new gen",
+            "color" : "#544ee4",
+            "price": 959,
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQMNII4uShgljgdeeEUr2ILVL2FYYBs2dEWKjgzxbPY5Pi3JSppfO9HcWB6Mpm0pDkwE&usqp=CAU"
+
+        }
+    ]
+}
