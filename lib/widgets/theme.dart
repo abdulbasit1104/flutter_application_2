@@ -7,15 +7,19 @@ class MyTheme {
   // ignore: non_constant_identifier_names
   static ThemeData LightTheme(BuildContext context) => ThemeData(
       primarySwatch: Colors.green,
-      fontFamily: GoogleFonts.lato().fontFamily,
+      fontFamily: GoogleFonts.poppins().fontFamily,
       appBarTheme: AppBarTheme(
           color: Colors.white,
           elevation: 0.0,
           iconTheme: const IconThemeData(color: Colors.black),
-          toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
-          titleTextStyle: Theme.of(context).textTheme.headline6));
+          titleTextStyle: Theme.of(context).textTheme.bodySmall));
 
   // ignore: non_constant_identifier_names
   static ThemeData DarkTheme(BuildContext context) =>
       ThemeData(brightness: Brightness.dark);
+
+//colors
+  // ignore: use_full_hex_values_for_flutter_colors
+  static Color creamColor = const Color.fromARGB(255, 225, 217, 217);
+  static Color drakBulishColor = const Color(0xff403b58);
 }
