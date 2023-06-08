@@ -37,6 +37,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        resizeToAvoidBottomInset: false,
         backgroundColor: MyTheme.creamColor,
         body: SafeArea(
           child: Container(
@@ -121,10 +122,9 @@ class CatalogItem extends StatelessWidget {
             children: [
               catalog.name.text.lg.color(MyTheme.drakBulishColor).bold.make(),
               catalog.desc.text.textStyle(context.captionStyle).make(),
-              10.heightBox,
               ButtonBar(
-                alignment: MainAxisAlignment.spaceBetween,
-                buttonPadding: Vx.m8,
+                alignment: MainAxisAlignment.spaceAround,
+                buttonPadding: Vx.m4,
                 children: [
                   "\$${catalog.price}".text.bold.lg.make(),
                   ElevatedButton(
@@ -140,15 +140,6 @@ class CatalogItem extends StatelessWidget {
           ))
         ],
       ),
-    ).white.rounded.square(150).make().py(16);
-  }
-}
-
-class CatalogImage extends StatelessWidget {
-  const CatalogImage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
+    ).white.rounded.square(100).make().py(24);
   }
 }
